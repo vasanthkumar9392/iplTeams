@@ -1,0 +1,117 @@
+.latest-container {
+  width: 100%;
+  background-color: #0f172a;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-radius: 12px;
+  border-width: 2px;
+  border-color: #475569;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.latest-1-container {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+.latest-2-container {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.latest-heading {
+  font-family: 'Bree Serif';
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.latest-date {
+  font-family: 'Bree Serif';
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-top: 5px;
+}
+.latest-venue {
+  font-family: 'Bree Serif';
+  font-size: 15px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-top: 5px;
+}
+.latest-result {
+  font-family: 'Bree Serif';
+  font-size: 15px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-top: 5px;
+}
+.compitition-logo-container {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.com-logo {
+  width: 60%;
+}
+.inning-heading {
+  font-family: 'Bree Serif';
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-top: 5px;
+}
+.inning-answer {
+  font-family: 'Bree Serif';
+  font-size: 15px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-top: 5px;
+}
+.red-text {
+  font-family: 'Bree Serif';
+  font-size: 20px;
+  font-weight: 500;
+  color: #e31a1a;
+  margin-top: 5px;
+}
+.green-text {
+  font-family: 'Bree Serif';
+  font-size: 20px;
+  font-weight: 500;
+  color: #18ed66;
+  margin-top: 5px;
+}
+@media (max-width: 576px) {
+  .latest-heading {
+    font-size: 23px;
+  }
+  .green-text {
+    font-size: 15px;
+  }
+  .red-text {
+    font-size: 15px;
+  }
+  .inning-answer {
+    font-size: 12px;
+  }
+  .inning-heading {
+    font-size: 16px;
+  }
+  .latest-result {
+    font-size: 12px;
+  }
+  .latest-venue {
+    font-size: 12px;
+  }
+  .latest-date {
+    font-size: 16px;
+  }
+}

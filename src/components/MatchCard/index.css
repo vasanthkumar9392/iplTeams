@@ -1,0 +1,65 @@
+.match-list1 {
+  width: 200px;
+  height: 330px;
+  background-color: #0f172a;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px;
+  padding: 5px;
+
+}
+.rcb-logo {
+  width: 120px;
+  height: 140px;
+}
+.red-text {
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  font-weight: 500;
+  color: #e31a1a;
+  margin-top: 5px;
+}
+.green-text {
+  font-family: 'Bree Serif';
+  font-size: 16px;
+  font-weight: 500;
+  color: #18ed66;
+  margin-top: 5px;
+}
+.rcb-text {
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 5px;
+  text-align: center;
+}
+.rcb-result {
+  font-family: 'Bree Serif';
+  font-size: 15px;
+  font-weight: 500;
+  color: #ffffff;
+  margin: 5px;
+  text-align: center;
+}
+@media (max-width: 576px) {
+  .match-list1 {
+    width: 130px;
+    height: 250px;
+  }
+  .red-text {
+    font-size: 13px;
+  }
+  .green-text {
+    font-size: 15px;
+  }
+  .rcb-text {
+    font-size: 13px;
+  }
+  .rcb-result {
+    font-size: 8px;
+  }
+}
